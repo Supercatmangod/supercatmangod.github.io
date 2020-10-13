@@ -5,22 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Supercatmangod</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script>
+
+      function contactbutton(){
+
+          swal({
+            title:"Contact",
+            text:"Discord:Supercatmangod#2243\nEmail:Thecatliferules@gmail.com\n"
+          });
+
+      }
+
+    </script>
   </head>
   <body>
   <section class="section has-background-black">
     <div class="container">
       <h1 class="title has-text-white-ter">
-        Supercatmangod
+        Supercatmangod 
       </h1>
-      <p class="subtitle has-text-white-ter">
-        I have no cule what I am doing <b>life</b>.
-      </p>
+      <h1 class="subtitle has-text-white-ter">
+        I have no clue what I am doing in <b>Life</b>
+      </h1>
     </div>
   </section>
   <section>
     <div class="columns has-background-black has-text-white-ter ">
         <div class="column">
-          <p class="has-text-centered">Apps</p>
+          <p class="has-text-centered" onclick="window.location.replace('#about');">Apps</p>
         </div>
         <div class="column">
             <p class="has-text-centered">About</p>
@@ -30,10 +45,40 @@
         </div>
       </div>
   </section>
-  
-  <section>
-      
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="container" id="about">
+
+    <h1 class = "title">About me</h1>
+    <article class="media">
+      <figure class="media-left">
+        <p class="">
+          <img src="/assets/Picture.gif" alt="My Avatar" id="crisp" width="255" height="255">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <p class="custom-size">
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          </p>
+        </div>
+    </article>
   </section>
 
+  <br>
+  <br>
+  <br>
+  <section class="section has-background-black">
+    <center>
+    <button class = "button is-primary has-text-left" onclick="contactbutton();">Contact Me</button>
+  </center>
+  </section>
+  <br>
   </body>
 </html>

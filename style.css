@@ -5,3 +5,19 @@
 .custom-size{
     font-size: x-large;
 }
+
+.fill {
+    height: 92vh;
+}
+
+.fill-text-h1{
+    font-size: 20vh;
+    
+}
+.fill-text-h2{
+    font-size:5vh;
+}
+
+.navigation{
+    height: 10vh;
+}

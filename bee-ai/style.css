@@ -1,0 +1,14 @@
+body{
+    background: rgb(255, 230, 0);
+    background: linear-gradient(90deg, rgb(142, 1, 155) 0%, rgb(242, 255, 0) 100%);
+    height: 50rem;
+}
+
+.background-white{
+    text-align: center;
+
+}
+
+.is-centered{
+    text-align: center;
+}

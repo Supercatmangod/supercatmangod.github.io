@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+
+    <h1 class="title is-centered">Bee movie AI</h1>
+    <h1 class="subtitle is-centered">With and power of AI to create new Bee Movie Quotes</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="box is-centered">
+    <input type="range" min="0" max="100" value="0.5" class="slider" id="temperature">
+    <label for="#temperature">Temperature</label>
+    <br>
+    <input type="range" min="0" max="1000" value="200" class="slider" id="length">
+    <label for="#length">length</label>
+    <br>
+    <button onclick="create();" class="button">Start the magic</button>
+    <p id="output" class="subtitle"></p>
+    </div>
+</body>
+</html>
